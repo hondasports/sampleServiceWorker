@@ -55,7 +55,7 @@ function post() {
     const val = self.queue.pop();
 
     self.isSending = true;
-    fetch('http://10.11.24.146/be/index.php/keyboard/input', {
+    fetch('http://someip/', {
         method: 'post',
         'Content-Type': 'application/json;charset=UTF-8',
         'Access-Control-Allow-Origin': '*',
